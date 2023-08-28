@@ -18,7 +18,7 @@
 }
 
 * {
-    margin: 1%;
+    margin: 2%;
     font-weight:bold;
     box-sizing: border-box;
 }
@@ -42,7 +42,7 @@ body {
     background-color: var(--grey);
     border-radius: 20px;
     box-shadow: var(--amarelo) 0px 0px 95px, var(--azul) 0px 4px 31px ;
-    border: 3px solid var(--azul-fran) ;
+    border: 0px solid var(--azul-fran) ;
     font-size: 15px;
 }
 
@@ -61,8 +61,13 @@ body {
 }
 
 .h1-home {
-    width: 56%;
-    border-radius: 5px;
+    display: flex;
+    width: 760px;
+    height: 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     background-color: var(--semi-oscuro);
     opacity: .6;
     margin: 3% 0% 4% 4%;
