@@ -1,6 +1,7 @@
 import React from 'react';
 import {Grid} from '@material-ui/core';
 import logo from '../imgs/logo.jpeg';
+import Vivi from '../imgs/img-1.jpeg';
 import './Home.css';
 
 
@@ -11,8 +12,9 @@ function Home ()  {
             container
             className='image-container'
             style={{minHeight: '100vh'}}>
-            <Grid className='footer' item xs={12}>
+            <Grid className='header' item xs={12}>
             <img src={logo} alt='Logo' />
+            <img src={Vivi} alt='Vivi' />
             </Grid>
             <Grid container>
               <h1 className="h1-home">Bienvenidos a nuestro home !!!</h1>
