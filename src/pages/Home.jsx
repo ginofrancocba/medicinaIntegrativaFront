@@ -9,14 +9,23 @@ function Home ()  {
     <div>
         <Grid 
             container
-            direction='column'
-            alignItems='center'
+            className='image-container'
             style={{minHeight: '100vh'}}>
-            <Grid item xs={12}>
+            <Grid className='footer' item xs={12}>
             <img src={logo} alt='Logo' />
             </Grid>
-        </Grid>
-     
+            <Grid container>
+              <h1 className="h1-home">Bienvenidos a nuestro home !!!</h1>
+              <h2 className="h2-home">Somos una empresa dedicada a la Medicina Integrativa</h2>
+              <p className="lead text-center">El Secreto de una Piel Resplandeciente. 
+              En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 
+              Te brindamos una experiencia única donde la ciencia dermatológica y las terapias naturales 
+              se fusionan para rejuvenecer tu piel.
+              Desde tratamientos antienvejecimiento hasta soluciones para problemas dermatológicos 
+              específicos, estamos comprometidos a ayudarte a lograr una piel que refleje vitalidad y 
+              bienestar.</p>
+            </Grid>
+        </Grid> 
     </div>
     );
 }
