@@ -1,6 +1,6 @@
 function Blogs(){
 
-    return <h1>Blogs</h1>
+    return <h1>Esta pagina es para Blogs</h1>
 
 }
 

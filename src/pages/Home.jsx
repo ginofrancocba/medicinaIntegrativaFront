@@ -2,6 +2,7 @@ import React from 'react';
 import {Grid} from '@material-ui/core';
 import logo from '../imgs/logo.jpeg';
 import Vivi from '../imgs/img-1.jpeg';
+import Footer from '../pages/Footer';
 import './Home.css';
 
 
@@ -28,7 +29,11 @@ function Home ()  {
               bienestar.</p>
             </Grid>
         </Grid> 
+        <Grid container>
+            <Footer/>
+        </Grid>
     </div>
+  
     );
 }
 
