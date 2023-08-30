@@ -15,6 +15,7 @@
 --amarelo: #ffc51aff; 
 --celeste: rgba(0, 212, 255, 0.75);
 --pastel: rgb(192, 179, 204);
+--salmon:rgb(248, 157, 147);
 }
 
 * {
@@ -24,7 +25,8 @@
 }
 
 body {
-    background-color: var(--pastel);
+    background-color: var(--salmon);
+    border-radius: 20px;
 }
 
 .image-container {
@@ -39,11 +41,11 @@ body {
 
 .header {
     display:flex ;   
-    background-color: var(--grey);
+    /*background-color: var(--grey);
     border-radius: 20px;
     box-shadow: var(--amarelo) 0px 0px 95px, var(--azul) 0px 4px 31px ;
     border: 0px solid var(--azul-fran) ;
-    font-size: 15px;
+    font-size: 15px;*/
 }
 
 .image-container img {
