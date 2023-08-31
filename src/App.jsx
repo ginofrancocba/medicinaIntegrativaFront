@@ -10,6 +10,7 @@ import DermoEstetica from './pages/DermoEstetica';
 import Fisioterapia from './pages/Fisioterapia';
 import Nutricion from './pages/Nutricion';
 import Pacientes from './pages/Pacientes';
+import Servicios from './pages/Servicios';
 import TratamLaser from './pages/TratamLaser';
 import NoPage from './pages/NoPage';
 
@@ -27,13 +28,15 @@ function App() {
           <Route path='Bioquimica' element={<Bioquimica/>}/>
           <Route path='Blogs' element={<Blogs/>}/>
           <Route path='Contacto' element={<Contact/>}/>
-          <Route path='Cosmiatria' element={<Cosmiatria />}/> 
-          <Route path='DermoEstetica' element={<DermoEstetica />}/>
-          <Route path='Fisioterapia' element={<Fisioterapia />}/>
-          <Route path='Nutricion' element={<Nutricion />}/>
           <Route path='Pacientes' element={<Pacientes />}/>
-          <Route path='TratamLaser' element={<TratamLaser />}/>
           <Route path='*' element={<NoPage/>}/>
+        </Route>
+        <Route path='/Servicios' element={<Servicios/>}>
+           <Route path='TratamLaser' element={<TratamLaser />}/>
+           <Route path='Cosmiatria' element={<Cosmiatria />}/> 
+           <Route path='DermoEstetica' element={<DermoEstetica />}/>
+           <Route path='Fisioterapia' element={<Fisioterapia />}/>
+           <Route path='Nutricion' element={<Nutricion />}/>
         </Route>
       </Routes>
     </BrowserRouter>
