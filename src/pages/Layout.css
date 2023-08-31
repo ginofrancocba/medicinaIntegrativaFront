@@ -8,7 +8,7 @@
    border-radius: 15px;
    box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px;
    border: 0px solid var(--azul-fran);
-   margin: 0px;
+   margin: 30px;
 }
 
 .navbar ul { 
