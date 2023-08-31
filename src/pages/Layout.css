@@ -1,21 +1,20 @@
-
-.navbar  {
-display: flex;
-justify-content:space-between;
-text-align: center;
-align-items: center;
-width: 1250px;
-height: 150px;  
-background-color: var(--grey);
-border-radius: 15px;
-box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px ;
-border: 0px solid var(--azul-fran) ;
+.container-layout {
+   display: flex;
+   justify-content:center;
+   text-align: center;
+   align-items: center;
+   height: 200px;  
+   background-color: var(--grey);
+   border-radius: 15px;
+   box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px;
+   border: 0px solid var(--azul-fran);
+   margin: 0px;
 }
 
-ul {
-    display: flex;
-    font-size: 18px;
-    list-style: none;
-    justify-content: flex-start;
-    align-content: center;
+.navbar ul { 
+  width: 1200px;
+  justify-content:space-evenly;
+  font-size: 30px;
+  list-style: none; 
 }
+
