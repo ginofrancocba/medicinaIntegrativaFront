@@ -16,6 +16,7 @@
 --celeste: rgba(0, 212, 255, 0.75);
 --pastel: rgb(192, 179, 204);
 --salmon:rgb(248, 157, 147);
+--salmon-fume:rgb(252, 84, 66);
 }
 
 * {
@@ -58,7 +59,7 @@ body {
     width: 30%;
     margin: 5%;
     border-radius: 5%;
-    box-shadow: var(--verde) 0px 0px 95px, var(--azul) 0px 4px 31px ;
+    box-shadow: var(--salmon-fume) 0px 0px 95px, var(--azul) 0px 4px 31px ;
     border: 1px solid var(--azul-fran) ;
   
 }

@@ -1,9 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
+import {Grid} from '@material-ui/core';
 import './Layout.css';
 
 function Layout() {
     return (
         <div>
+            <Grid 
+            container>
             <nav className="navbar navbar-expand-lg bg-dark">
                 <ul>
                     <li>
@@ -23,9 +26,9 @@ function Layout() {
                     <li>
                         <Link to="/pacientes">Pacientes</Link>
                     </li>
-
                 </ul>
             </nav>
+            </Grid>
             <Outlet />
         </div>
     )
