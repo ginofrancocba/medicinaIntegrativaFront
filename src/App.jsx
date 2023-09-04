@@ -1,21 +1,20 @@
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 import React from 'react';
-import Layout from './pages/Layout';
-import LayoutServicios from './pages/LayoutServicios';
-import Home from './pages/Home';
 import Bioquimica from './pages/Bioquimica';
-
 import Contact from './pages/Contact';
 import Cosmiatria from './pages/Cosmiatria';
 import DermoEstetica from './pages/DermoEstetica';
 import Fisioterapia from './pages/Fisioterapia';
+import Home from './pages/Home';
+import Layout from './pages/Layout';
+import LayoutServicios from './pages/LayoutServicios';
+import NoPage from './pages/NoPage';
 import Nutricion from './pages/Nutricion';
 import Pacientes from './pages/Pacientes';
+import Profesionales from './pages/Profesionales';
 import Servicios from './pages/Servicios';
 import TratamLaser from './pages/TratamLaser';
-import NoPage from './pages/NoPage';
 import './App.css';
-import Profesionales from './pages/Profesionales';
 
 
 function App() {
