@@ -3,7 +3,7 @@
 --oscuro: #1c1c1f;
 --semi-oscuro: #8c8c8e;
 --app-grey: #F2F2F2;
---grey: rgb(184, 186, 192);
+--grey: rgb(242, 243, 248);
 --azul: rgb(91, 91, 229);
 --azul-hover: rgb(40, 40, 197);
 --azul-fran: rgb(102, 138, 255);
@@ -26,10 +26,9 @@
 }
 
 body {
-    background-color: var(--salmon);
+    background-color: var(--app-grey);
     border-radius: 20px;
 }
-
 
 .image-container {
     display: flex;
@@ -38,7 +37,7 @@ body {
     align-items: center;
     flex-grow: 1;
     flex-shrink: 1;
-    margin: 5%;   
+    margin: 0;   
 }
 
 .header {
@@ -56,10 +55,10 @@ body {
     align-items: center;
     opacity: 1;
     filter: contrast(110%);
-    width: 30%;
+    width: 600px;
     margin: 5%;
     border-radius: 5%;
-    box-shadow: var(--salmon-fume) 0px 0px 95px, var(--azul) 0px 4px 31px ;
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 31px ;
     border: 1px solid var(--azul-fran) ;
   
 }

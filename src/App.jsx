@@ -4,7 +4,7 @@ import Layout from './pages/Layout';
 import LayoutServicios from './pages/LayoutServicios';
 import Home from './pages/Home';
 import Bioquimica from './pages/Bioquimica';
-import Blogs from './pages/Blogs';
+
 import Contact from './pages/Contact';
 import Cosmiatria from './pages/Cosmiatria';
 import DermoEstetica from './pages/DermoEstetica';
@@ -15,6 +15,7 @@ import Servicios from './pages/Servicios';
 import TratamLaser from './pages/TratamLaser';
 import NoPage from './pages/NoPage';
 import './App.css';
+import Profesionales from './pages/Profesionales';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />}/>
-          <Route path='Blogs' element={<Blogs />}/>
+          <Route path='Profesionales' element={<Profesionales />}/>
           <Route path='Contacto' element={<Contact />}/>
           <Route path='Pacientes' element={<Pacientes />}/>
           <Route path='*' element={<NoPage/>}/>

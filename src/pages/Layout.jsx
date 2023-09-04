@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import {Grid} from '@material-ui/core';
+import logo from '../imgs/logo.jpeg';
 import './Layout.css';
 
 function Layout() {
@@ -9,11 +10,16 @@ function Layout() {
                 container className="container-layout">
                     <nav className="navbar navbar-expand-lg bg-dark">
                         <ul>
+                            <Grid className="logo">
+                            <li>
+                            <img src={logo} alt='Logo' />
+                            </li> 
+                            </Grid>
                             <li>
                                 <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="/blogs">Blogs</Link>
+                                <Link to="/blogs">Profesionales</Link>
                             </li>
                             <li>
                                 <Link to="/contacto">Contacto</Link>
