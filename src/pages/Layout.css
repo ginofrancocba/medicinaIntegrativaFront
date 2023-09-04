@@ -12,20 +12,20 @@
 }
 
 .navbar ul img {
-  display: flex;
-  width: 150px;
-  height: 150px;
-  margin: 0;
-  border-color: 1px solid var(--azul);
+   display: flex;
+   width: 150px;
+   height: 150px;
+   margin: 0;
+   border-color: 1px solid var(--azul);
 }
 
 .navbar ul { 
-  display: flex;
-  width: 1300px;
-  justify-content:space-around;
-  font-size: 30px;
-  list-style: none; 
-  margin: 0;
-  padding: 0;
+   display: flex;
+   width: 1300px;
+   justify-content:space-around;
+   font-size: 30px;
+   list-style: none; 
+   margin: 0;
+   padding: 0;
 }
 

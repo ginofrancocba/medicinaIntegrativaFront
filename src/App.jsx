@@ -27,10 +27,10 @@ function App() {
           <Route path='Profesionales' element={<Profesionales />}/>
           <Route path='Contacto' element={<Contact />}/>
           <Route path='Pacientes' element={<Pacientes />}/>
+          <Route path='Servicios' element={<Servicios />}/>
           <Route path='*' element={<NoPage/>}/>
         </Route>
         <Route path='/' element={<LayoutServicios />}>
-           <Route path='Servicios' element={<Servicios />}/>
            <Route path='Bioquimica' element={<Bioquimica />}/>
            <Route path='TratamLaser' element={<TratamLaser />}/>
            <Route path='Cosmiatria' element={<Cosmiatria />}/> 

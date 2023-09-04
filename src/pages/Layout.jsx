@@ -12,23 +12,20 @@ function Layout() {
                         <ul>
                             <Grid className="logo">
                             <li>
-                            <img src={logo} alt='Logo' />
+                                <img src={logo} alt='Logo' />
                             </li> 
                             </Grid>
                             <li>
                                 <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="/blogs">Profesionales</Link>
+                                <Link to="/profesionales">Profesionales</Link>
                             </li>
                             <li>
                                 <Link to="/contacto">Contacto</Link>
                             </li>
                             <li>
                                 <Link to="/servicios">Servicios</Link>
-                            </li>
-                            <li>
-                                <Link to="/pacientes">Pacientes</Link>
                             </li>
                         </ul>
                     </nav>

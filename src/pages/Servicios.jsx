@@ -7,8 +7,9 @@ function Servicios() {
     return 
          <div>
              <Grid 
-                 container>
-                   
+                 container
+                       className="container-layoutServicios">
+                        <nav className="navbar-servicios navbar-expand-lg bg-dark"></nav>
               </Grid>
               <Outlet />
                     <h1>Esta pagina es para Servicios</h1>

@@ -3,17 +3,30 @@
     justify-content:center;
     text-align: center;
     align-items: center;
+    width: 1500px;
     height: 200px;  
     background-color: var(--grey);
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px;
     border: 0px solid var(--azul-fran);
     margin: 0px;
 }
+
+.navbar-servicios ul img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    border-color: 1px solid var(--azul);
+  }
+  
  
 .navbar-servicios ul { 
-   width: 1400px;
-   justify-content:space-evenly;
-   font-size: 25px;
-   list-style: none; 
+    display:flex ;
+    width: 1300px;
+    justify-content:space-around;
+    font-size: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
 }
