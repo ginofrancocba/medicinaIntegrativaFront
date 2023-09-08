@@ -1,4 +1,10 @@
-import { BrowserRouter, Routes, Route  } from 'react-router-dom';
+import { BrowserRouter, 
+  Routes, 
+  Route,  
+  Link,
+  useNavigate,
+  useParams
+} from 'react-router-dom';
 import React from 'react';
 import Bioquimica from './pages/Bioquimica';
 import Contact from './pages/Contact';
@@ -7,7 +13,6 @@ import DermoEstetica from './pages/DermoEstetica';
 import Fisioterapia from './pages/Fisioterapia';
 import Home from './pages/Home';
 import Layout from './pages/Layout';
-import LayoutServicios from './pages/LayoutServicios';
 import NoPage from './pages/NoPage';
 import Nutricion from './pages/Nutricion';
 import Pacientes from './pages/Pacientes';
@@ -28,16 +33,13 @@ function App() {
           <Route path='Contacto' element={<Contact />}/>
           <Route path='Pacientes' element={<Pacientes />}/>
           <Route path='Servicios' element={<Servicios />}/>
+          <Route path='Bioquimica' element={<Bioquimica />}/>
+          <Route path='TratamLaser' element={<TratamLaser />}/>
+          <Route path='Cosmiatria' element={<Cosmiatria />}/> 
+          <Route path='DermoEstetica' element={<DermoEstetica />}/>
+          <Route path='Fisioterapia' element={<Fisioterapia />}/>
+          <Route path='Nutricion' element={<Nutricion />}/>
           <Route path='*' element={<NoPage/>}/>
-        </Route>
-        <Route path='/' element={<LayoutServicios />}>
-           <Route path='Bioquimica' element={<Bioquimica />}/>
-           <Route path='TratamLaser' element={<TratamLaser />}/>
-           <Route path='Cosmiatria' element={<Cosmiatria />}/> 
-           <Route path='DermoEstetica' element={<DermoEstetica />}/>
-           <Route path='Fisioterapia' element={<Fisioterapia />}/>
-           <Route path='Nutricion' element={<Nutricion />}/>
-           <Route path='*' element={<NoPage/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
