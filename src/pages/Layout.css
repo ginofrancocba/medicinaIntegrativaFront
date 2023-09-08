@@ -6,22 +6,25 @@
    height: 200px;  
    background-color: var(--grey);
    border-radius: 10px;
-   box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px;
-   border: 0px solid var(--azul-fran);
+   /* box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px;
+   border: 0px solid var(--azul-fran); */
    margin: 0px;
 }
 
 .navbar ul img {
    display: flex;
-   width: 150px;
-   height: 150px;
+   width: 130px;
+   height: 130px;
    margin: 0;
+   border-radius: 5px;
    border-color: 1px solid var(--azul);
+   box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px;
+   border: 0px solid var(--azul-fran);
 }
 
 .navbar ul { 
    display: flex;
-   width: 1300px;
+   width: 1200px;
    justify-content:space-around;
    font-size: 30px;
    list-style: none; 

@@ -8,7 +8,7 @@
 --azul-hover: rgb(40, 40, 197);
 --azul-fran: rgb(102, 138, 255);
 --verde: rgb(37, 177, 121);
---verde-fran: rgb(0, 255, 76);
+--verde-fran: rgb(177, 214, 188);
 --rosa: rgb(181, 155, 176);
 --lila: #8a6df1ff;
 --laranja: rgb(84, 31, 23);
@@ -20,7 +20,7 @@
 }
 
 * {
-    margin: 1%;
+    margin: 0%;
     font-weight:bold;
     box-sizing: border-box;
 }
@@ -32,12 +32,12 @@ body {
 
 .image-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ 
+    justify-content: end;
+    align-items: end;
     flex-grow: 1;
     flex-shrink: 1;
-    margin: 0;   
+    margin: 20px 20px 20px 20px;   
 }
 
 .header {
@@ -51,13 +51,13 @@ body {
 
 .image-container img {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:end;
+    align-items:end;
     opacity: 1;
     filter: contrast(110%);
-    width: 600px;
-    margin: 5%;
-    border-radius: 5%;
+    width: 300px;
+    margin: 5px;
+    border-radius: 5;
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 31px ;
     border: 1px solid var(--azul-fran) ;
   
@@ -65,7 +65,7 @@ body {
 
 .h1-home {
     display: flex;
-    width: 760px;
+    width: 100vw;
     height: 110px;
     text-align: center;
     justify-content: center;
@@ -73,24 +73,24 @@ body {
     border-radius: 10px;
     background-color: var(--semi-oscuro);
     opacity: .6;
-    margin: 3% 0% 4% 4%;
+    margin: 3% 0% 4% 0%;
 
 }
 
 .h2-home {
    width: 80%;
-   margin: 0% 0% 0% 4%;
+   margin: 0% 0% 4% 4%;
 
 }
 
 .lead  {
-    width: 80%;
+    width: 100%;
     font-size: 20px;
-    color: #522b2b;
+    color: var(--grey);
     line-height: 1.5;
-    margin: 0%;
+    margin: 0% 0% 5% 0%;
     padding: 1% 4%;
-    background-color: var(--rosa);
-    border-radius: 50%;
+    background-color: var(--verde-fran);
+    border-radius: 5px;
    
 }

@@ -17,7 +17,7 @@ function Home ()  {
                         </Grid>
              <Grid 
                  container>
-                      <h1 className="h1-home">Bienvenidos a nuestro home !!!</h1>
+                      <h1 className="h1-home">Bienvenidos al centro de medicina integrativa !!!</h1>
                       <h2 className="h2-home">Somos una empresa dedicada a la Medicina Integrativa</h2>
                       <p className="lead text-center">El Secreto de una Piel Resplandeciente. 
                        En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 

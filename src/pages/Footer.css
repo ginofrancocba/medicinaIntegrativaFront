@@ -5,7 +5,7 @@
     height: 150px;  
     background-color: var(--grey);
     border-radius: 20px;
-    box-shadow: var(--amarelo) 0px 0px 95px, var(--azul) 0px 4px 31px ;
+    box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px ;
     border: 0px solid var(--azul-fran) ;
     
 }
@@ -16,14 +16,16 @@
 
 .page-footer img {
    width: 50px;
-   justify-content:space-between; 
-   margin: 10px;
+   justify-content:flex-start; 
+   margin: 30px;
+   border-radius: 5px;
 }
 
 .copyright {
    align-items: center;
    justify-content:end;
    height: 150px;
+   color: var(--oscuro);
 }
 
 .copyright img {
