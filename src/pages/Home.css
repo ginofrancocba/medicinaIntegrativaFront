@@ -18,6 +18,7 @@
 --salmon:rgb(248, 157, 147);
 --salmon-fume:rgb(252, 84, 66);
 --grey-layer: rgb(224, 224, 224);
+--grey-button: 	rgb(115, 147, 179);
 }
 
 * {
@@ -37,7 +38,7 @@ body {
     align-items: end;
     flex-grow: 1;
     flex-shrink: 1;
-    margin: 20px 20px 20px 20px;   
+    margin: 20px 0px 0px 80px;   
 }
 
 .header {

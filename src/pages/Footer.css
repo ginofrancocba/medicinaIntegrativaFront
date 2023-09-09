@@ -1,10 +1,9 @@
 
 .page-footer  {
     display: grid;
-
-    margin: 0 auto; 
-    height: 150px;  
-    background-color: var(--grey);
+    justify-content: center;
+    height: 450px;  
+    background-color: var(--semi-oscuro);
     border-radius: 10px;
     box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px ;
     border: 0px solid var(--azul-fran) ; 
@@ -12,7 +11,8 @@
 
 .icons {
    display: flex;
-   width: 900px;
+   justify-content: space-evenly;
+   align-items: center;
    height: 200px;
 }
 
@@ -22,6 +22,10 @@
    justify-content:center; 
    margin: 30px;
    border-radius: 5px;
+}
+.btn {
+   background-color:var(--grey-button) ;
+   width: 300px;
 }
 
 .copyright {
@@ -35,3 +39,4 @@
    width: 40px;
    height: 40px; 
 }
+

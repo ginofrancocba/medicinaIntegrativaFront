@@ -13,20 +13,20 @@ function Footer() {
           
             <Grid 
             container
-            
             className="page-footer"> 
-                
+                 <ul>
+                    <li>
+                        <Link to="/contacto"><button type="submit" class="btn btn-primary">Contactanos!</button></Link>
+                    </li>
+                 </ul>
                 <Grid 
                 container
                 className="icons">
+                    
                     <a href="https://www.facebook.com/profile.php?id=" alt="Abrir facebook" target="_blank" ><img src={icon1} /></a>
                     <a href="https://instagram.com/" alt="Abrir instagram" target="_blank" ><img src={icon2} /></a>
                     <a href="https://api.whatsapp.com/Me contacto desde la web: info...?" alt="Abrir WhatsApp" target="_blank" ><img src={icon3} /></a> 
-                    <ul>
-                      <li>
-                        <Link to="/contacto"><button type="submit" class="btn btn-primary">Contactanos!</button></Link>
-                      </li>
-                    </ul>
+                   
                 </Grid>
                 <Grid
                     container
