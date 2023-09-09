@@ -25,7 +25,7 @@ function Profesionales() {
     return (
         <div>
             <Grid container className="image-container-profesionales">
-               <h1 className="h1-profesionales">Nuestros Profesionales</h1>
+               <h1 className="h1-profesionales">Destacados Profesionales</h1>
   
                {/* Tarjeta 1 */}
                 <ProfesionalCard
@@ -115,27 +115,3 @@ function Profesionales() {
   
   export default Profesionales;
 
-
-
-
-//             <h1 className="h1-profesionales">Nuestros Profesionales</h1>
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Hidro1} alt='imagen de la profesional' /> 
-           
-//             <img src={Vivi} alt='Vivi' />
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Vivi} alt='Vivi' /> 
-//             <img src={Vivi} alt='Vivi' />  
-//             <img src={Vivi} alt='Vivi' /> 
-//             </Grid>
-//             <Outlet />
-//         </div>
-//         )
-// }
-// export default Profesionales;
