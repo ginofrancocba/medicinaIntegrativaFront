@@ -5,9 +5,10 @@ import { BrowserRouter,
   useNavigate,
   useParams
 } from 'react-router-dom';
+import Aparatologia from './pages/Aparatologia';
 import React from 'react';
 import Bioquimica from './pages/Bioquimica';
-import Contact from './pages/Contact';
+import Contact from './pages/Contacto';
 import Cosmiatria from './pages/Cosmiatria';
 import DermoEstetica from './pages/DermoEstetica';
 import Fisioterapia from './pages/Fisioterapia';
@@ -31,6 +32,7 @@ function App() {
           <Route index element={<Home />}/>
           <Route path='Profesionales' element={<Profesionales />}/>
           <Route path='Contacto' element={<Contact />}/>
+          <Route path='Aparatologia' element={<Aparatologia />}/>
           <Route path='Pacientes' element={<Pacientes />}/>
           <Route path='Servicios' element={<Servicios />}/>
           <Route path='Bioquimica' element={<Bioquimica />}/>

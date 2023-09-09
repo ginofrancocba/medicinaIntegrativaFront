@@ -1,0 +1,19 @@
+.h1-profesionales {
+    font: 48px/80px "Open Sans", sans-serif;
+    color: var(--semi-oscuro);
+
+}
+
+.image-container-profesionales img {
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    opacity: 1;
+    filter: contrast(110%);
+    width: 250px;
+    margin: 80px;
+    border-radius: 100px;
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
+    border: 5px solid var(--azul-fran) ;
+  
+}

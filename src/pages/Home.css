@@ -32,7 +32,7 @@ body {
 
 .image-container {
     display: flex;
- 
+   
     justify-content: end;
     align-items: end;
     flex-grow: 1;
@@ -58,7 +58,7 @@ body {
     width: 300px;
     margin: 5px;
     border-radius: 5;
-    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 31px ;
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
     border: 1px solid var(--azul-fran) ;
   
 }

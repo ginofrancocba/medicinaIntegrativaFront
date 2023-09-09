@@ -22,8 +22,8 @@ function Footer() {
                 <Grid
                     container
                     className="copyright" item xs={12}>
-                    <p>Copyright© 2023 www..com</p>
-                    <p>Todos los derechos reservados</p> 
+                    <p>Copyright© 2023 www..com </p>
+                    <p>Todos los derechos reservados. By NAOKI solutions</p> 
                     <img src={Logo} alt='Logo Naoki' />
                 </Grid>
             </Grid>

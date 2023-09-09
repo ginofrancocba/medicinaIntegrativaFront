@@ -22,6 +22,9 @@ function Layout() {
                                 <Link to="/profesionales">Profesionales</Link>
                             </li>
                             <li>
+                                <Link to="/aparatologia">Aparatologia</Link>
+                            </li>
+                            <li>
                                 <Link to="/contacto">Contacto</Link>
                             </li>
                             <li>
