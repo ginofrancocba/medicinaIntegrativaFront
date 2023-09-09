@@ -19,7 +19,7 @@ import Nutricion from './pages/Nutricion';
 import Pacientes from './pages/Pacientes';
 import Profesionales from './pages/Profesionales';
 import Servicios from './pages/Servicios';
-import TratamLaser from './pages/TratamLaser';
+import Tratamientos from './pages/Tratamientos';
 import './App.css';
 
 
@@ -36,7 +36,7 @@ function App() {
           <Route path='Pacientes' element={<Pacientes />}/>
           <Route path='Servicios' element={<Servicios />}/>
           <Route path='Bioquimica' element={<Bioquimica />}/>
-          <Route path='TratamLaser' element={<TratamLaser />}/>
+          <Route path='Tratamientos' element={<Tratamientos />}/>
           <Route path='Cosmiatria' element={<Cosmiatria />}/> 
           <Route path='DermoEstetica' element={<DermoEstetica />}/>
           <Route path='Fisioterapia' element={<Fisioterapia />}/>

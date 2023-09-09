@@ -1,5 +1,5 @@
 :root {
---negro: #000000ff;
+--negro: #000000;
 --oscuro: #1c1c1f;
 --semi-oscuro: #8c8c8e;
 --app-grey: #F2F2F2;
@@ -17,6 +17,7 @@
 --pastel: rgb(192, 179, 204);
 --salmon:rgb(248, 157, 147);
 --salmon-fume:rgb(252, 84, 66);
+--grey-layer: rgb(224, 224, 224);
 }
 
 * {
@@ -32,7 +33,6 @@ body {
 
 .image-container {
     display: flex;
-   
     justify-content: end;
     align-items: end;
     flex-grow: 1;
@@ -70,17 +70,17 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    background-color: var(--semi-oscuro);
+    color: var(--semi-oscuro);
     opacity: .6;
     margin: 3% 0% 4% 0%;
+      /* background-color: var(--semi-oscuro); */
 
 }
 
 .h2-home {
    width: 80%;
    margin: 0% 0% 4% 4%;
-
+   color: var(--semi-oscuro);
 }
 
 .lead  {

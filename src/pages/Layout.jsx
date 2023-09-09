@@ -1,3 +1,4 @@
+import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import {Grid} from '@material-ui/core';
 import logo from '../imgs/logo.jpeg';
@@ -20,6 +21,9 @@ function Layout() {
                             </li>
                             <li>
                                 <Link to="/profesionales">Profesionales</Link>
+                            </li>
+                            <li>
+                                <Link to="/tratamientos">Tratamientos</Link>
                             </li>
                             <li>
                                 <Link to="/aparatologia">Aparatologia</Link>

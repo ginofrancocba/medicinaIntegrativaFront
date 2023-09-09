@@ -15,24 +15,24 @@ function Home ()  {
                         <Grid className='header' item xs={12}>
                             <img src={Vivi} alt='Vivi' /> 
                         </Grid>
-             <Grid 
-                 container>
-                      <h1 className="h1-home">Bienvenidos al centro de medicina integrativa !!!</h1>
-                      <h2 className="h2-home">Somos una empresa dedicada a la Medicina Integrativa</h2>
-                      <p className="lead text-center">El Secreto de una Piel Resplandeciente. 
-                       En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 
-                       Te brindamos una experiencia única donde la ciencia dermatológica y las terapias naturales 
-                       se fusionan para rejuvenecer tu piel.
-                       Desde tratamientos antienvejecimiento hasta soluciones para problemas dermatológicos 
-                       específicos, estamos comprometidos a ayudarte a lograr una piel que refleje vitalidad y 
-                       bienestar.</p>
-             </Grid>
+                        <Grid 
+                            container>
+                                <h1 className="h1-home">Bienvenidos al centro de medicina integrativa !!!</h1>
+                                <h2 className="h2-home">Somos una empresa dedicada a la Medicina Integrativa</h2>
+                                <p className="lead text-center">El Secreto de una Piel Resplandeciente. 
+                                 En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 
+                                 Te brindamos una experiencia única donde la ciencia dermatológica y las terapias naturales 
+                                 se fusionan para rejuvenecer tu piel.
+                                 Desde tratamientos antienvejecimiento hasta soluciones para problemas dermatológicos 
+                                 específicos, estamos comprometidos a ayudarte a lograr una piel que refleje vitalidad y 
+                                 bienestar.</p>
+                        </Grid>
              </Grid> 
-             <Grid container>
-            <Footer/>
-        </Grid>
-    </div>
-  
+             <Grid 
+                container>
+                    <Footer/>
+             </Grid>
+         </div>
     );
 }
 

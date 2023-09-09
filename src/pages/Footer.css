@@ -7,8 +7,7 @@
     background-color: var(--grey);
     border-radius: 10px;
     box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px ;
-    border: 0px solid var(--azul-fran) ;
-    
+    border: 0px solid var(--azul-fran) ; 
 }
 
 .icons {
@@ -19,7 +18,7 @@
 
 .page-footer img {
    width: 50px;
-   justify-content:flex-start; 
+   justify-content:center; 
    margin: 30px;
    border-radius: 5px;
 }
