@@ -16,8 +16,7 @@
 
 .navbar ul { 
    display: flex;
-
-   height: 66px;
+   height: 70px;
    align-items: center;
    justify-content:space-around;
    font-size: 20px;

@@ -12,7 +12,8 @@
     align-items:center;
     opacity: 1;
     filter: contrast(110%);
-    width: 350px;
+    width: 330px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
     border: 10px solid var(--semi-oscuro) ;
