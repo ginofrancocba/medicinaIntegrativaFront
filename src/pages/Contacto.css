@@ -1,28 +1,14 @@
-.image-container-contacto img {
-    display: flex;
-    justify-content:end;
-    align-items:center;
-    opacity: 1;
-    filter: contrast(110%);
-    width: 250px;
-    margin: 80px;
-    border-radius: 70px;
-    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
-    border: 10px solid var(--semi-oscuro) ;
-  
-}
-
 .h1-contacto {
     display: flex;
-    width: 100vw;
+    font: 48px/80px "Open Sans", sans-serif;
+    width: 80%;
     height: 100px;
     text-align: center;
-    justify-content: center;
     align-items: center;
     opacity: .6;
-    margin:0%;
+    margin: 20px 20px 50px 10px;
     color: var(--semi-oscuro);
-
+    border-bottom: 2px solid var(--semi-oscuro); 
 }
 
 .h2-contacto {
@@ -32,4 +18,26 @@
     width: 100vw;
     height: 80px;
     color: var(--semi-oscuro)
+}
+
+.contacto-card {
+  
+    justify-content:end;
+    align-items:center;
+    text-align: center;
+    opacity: 1;
+    filter: contrast(110%);
+    width: 310px;
+    height: 330px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
+    border: 10px solid var(--semi-oscuro) ;
+  
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
 }
