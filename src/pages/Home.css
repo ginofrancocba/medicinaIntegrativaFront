@@ -66,15 +66,15 @@ body {
 
 .h1-home {
     display: flex;
-    width: 100vw;
-    height: 110px;
-    text-align: center;
-    justify-content: center;
+    font: 48px/80px "Open Sans", sans-serif;
+    width: 100%;
     align-items: center;
+    text-align: center;
+    margin: 30px 40px 0px 40px;
+    padding: 30px 30px 40px 50px;
     color: var(--semi-oscuro);
-    opacity: .6;
-    margin: 3% 0% 4% 0%;
-      /* background-color: var(--semi-oscuro); */
+    border-bottom: 2px solid var(--semi-oscuro); 
+    background-color: var(--salmon); 
 
 }
 

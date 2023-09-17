@@ -1,23 +1,27 @@
 .h1-contacto {
     display: flex;
     font: 48px/80px "Open Sans", sans-serif;
-    width: 80%;
-    height: 100px;
-    text-align: center;
+    width: 100%;
     align-items: center;
-    opacity: .6;
-    margin: 20px 20px 50px 10px;
+    text-align: center;
+    margin: 30px 40px 0px 40px;
+    padding: 30px 30px 40px 50px;
     color: var(--semi-oscuro);
     border-bottom: 2px solid var(--semi-oscuro); 
+    background-color: var(--salmon); 
 }
 
 .h2-contacto {
+    font: 36px/80px "Open Sans", sans-serif;
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    text-align: center;
+    width: 80vw;
     height: 80px;
-    color: var(--semi-oscuro)
+    color: var(--semi-oscuro);
+    border-bottom: 2px solid var(--semi-oscuro);
+    margin: 2rem;
 }
 
 .contacto-card {
@@ -31,9 +35,7 @@
     margin: 50px;
     border-radius: 10px;
     border: 10px solid var(--semi-oscuro) ;
-    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
-  
-  
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ; 
 }
 
 .map-container {
@@ -42,11 +44,13 @@
     text-align: center;
     border-radius: 5px;
     overflow: hidden;
+
 }
 
 iframe {
     width: 60%;
-    height: 400px;
+    height: 30rem;
     border: 5px solid var(--azul) ;
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
+    margin: 5%;
 }

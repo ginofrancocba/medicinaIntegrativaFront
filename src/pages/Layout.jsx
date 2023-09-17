@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import {Grid} from '@material-ui/core';
-import logo from '../imgs/logo.jpeg';
 import './Layout.css';
 
 function Layout() {
@@ -11,9 +10,9 @@ function Layout() {
                 container className="container-layout">
                     <nav className="navbar navbar-expand-lg bg-dark">
                         <ul>
-                            <Grid className="logo">
+                            <Grid>
                             <li>
-                                <img src={logo} alt='Logo' />
+                                <img  className="logo" src='/imgs/logo.jpeg' alt='Logo' />
                             </li> 
                             </Grid>
                             <li>
@@ -30,9 +29,6 @@ function Layout() {
                             </li>
                             <li>
                                 <Link to="/contacto">Contacto</Link>
-                            </li>
-                            <li>
-                                <Link to="/servicios">Servicios</Link>
                             </li>
                         </ul>
                     </nav>

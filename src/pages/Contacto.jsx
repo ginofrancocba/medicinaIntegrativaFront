@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import {Grid, Card, CardContent, Typography} from '@material-ui/core';
-import Vivi from '../imgs/img-1.jpeg';
 import './Contacto.css';
 
 
@@ -20,8 +19,6 @@ function ContactoCard({imgSrc, alt, name, title }) {
     );
 }
 
-
-
 function Contacto() {
     return (
        <div>
@@ -33,8 +30,8 @@ function Contacto() {
                   
                 {/* Tarjeta 1 */}
                 <ContactoCard
-                  imgSrc={Vivi}
-                  alt="Vivi"
+                  imgSrc=''
+                  alt="imagen Belen"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
                 />

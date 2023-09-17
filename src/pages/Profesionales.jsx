@@ -1,8 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import {Grid, Card, CardContent, Typography} from '@material-ui/core';
-import Vivi from '../imgs/img-1.jpeg';
-import Hidro1 from '../imgs/img-Hidro-1.jpeg';
+import { Grid, Card, CardContent, Typography } from '@material-ui/core';
 import './Profesionales.css';
 
 
@@ -29,7 +27,7 @@ function Profesionales() {
   
                {/* Tarjeta 1 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
+                  imgSrc='./imgs/img-1.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
@@ -37,7 +35,7 @@ function Profesionales() {
   
                 {/* Tarjeta 2 */}
                 <ProfesionalCard
-                  imgSrc={Hidro1}
+                  imgSrc='../imgs/img-Hidro-1.jpeg'
                   alt="imagen de la profesional"
                   name="Melisa Rolandi ENF MP 13937 NM 19"
                   title="Enfermera Profesional"
@@ -45,15 +43,15 @@ function Profesionales() {
 
                 {/* Tarjeta 3 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
-                  alt="Vivi"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
+                  imgSrc='../imgs/img-Cir-Plast.jpeg'
+                  alt="imagen de la profesional"
+                  name="Setti Romina MP 21864 ME 7371"
+                  title="Med Cirujana Plastica"
                 />
 
                 {/* Tarjeta 4 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
+                  imgSrc='./imgs/img-1.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
@@ -61,7 +59,7 @@ function Profesionales() {
 
                 {/* Tarjeta 5 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
+                  imgSrc='./imgs/img-1.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
@@ -69,7 +67,7 @@ function Profesionales() {
 
                 {/* Tarjeta 6 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
+                  imgSrc='./imgs/img-1.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
@@ -77,7 +75,7 @@ function Profesionales() {
 
                 {/* Tarjeta 7 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
+                  imgSrc='./imgs/img-1.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
@@ -85,7 +83,7 @@ function Profesionales() {
 
                 {/* Tarjeta 8 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
+                  imgSrc='./imgs/img-1.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
@@ -93,7 +91,7 @@ function Profesionales() {
 
                 {/* Tarjeta 9 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
+                  imgSrc='./imgs/img-1.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
@@ -101,7 +99,7 @@ function Profesionales() {
 
                 {/* Tarjeta 10 */}
                 <ProfesionalCard
-                  imgSrc={Vivi}
+                  imgSrc='./imgs/img-1.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"

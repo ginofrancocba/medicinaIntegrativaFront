@@ -13,7 +13,7 @@
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-   height: 200px;
+   height: 100px;
 }
 
 .page-footer img {
@@ -24,14 +24,20 @@
    border-radius: 5px;
 }
 .btn {
+   font-size: 1.5rem;
+   margin: 2rem 1rem 0rem 1rem;
    background-color:var(--grey-button) ;
    width: 300px;
+}
+
+.btn:hover {
+   border-color: 3px var(--azul-fran);
 }
 
 .copyright {
    align-items: center;
    justify-content:end;
-   height: 150px;
+   height: 100px;
    color: var(--oscuro);
 }
 

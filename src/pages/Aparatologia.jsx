@@ -1,10 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { Grid, Card, CardContent, Typography } from '@material-ui/core';
-import App2 from '../imgs/img-2.jpeg';
-import App6 from '../imgs/img-6.jpeg';
-import App7 from '../imgs/img-7.jpeg';
-import App8 from '../imgs/img-8.jpeg';
 import './Aparatologia.css';
 
 
@@ -34,7 +30,7 @@ function Aparatologia() {
                 <h1 className="h1-aparatologia">Contamos con aparatologia de ultima generacion !!!</h1>
                 {/* Tarjeta 1 */}
                 <AparatologiaCard
-                    imgSrc={App2}
+                    imgSrc='../imgs/img-2.jpeg'
                     alt="Vivi"
                     name="Viviana Cellutti MP 21864 ME 7371"
                     title="Medica Cirujana - Docente Universitaria"
@@ -42,7 +38,7 @@ function Aparatologia() {
 
                 {/* Tarjeta 2 */}
                 <AparatologiaCard
-                    imgSrc={App6}
+                    imgSrc='../imgs/img-6.jpeg'
                     alt="Vivi"
                     name="Viviana Cellutti MP 21864 ME 7371"
                     title="Medica Cirujana - Docente Universitaria"
@@ -50,7 +46,7 @@ function Aparatologia() {
 
                 {/* Tarjeta 3 */}
                 <AparatologiaCard
-                    imgSrc={App7}
+                    imgSrc='../imgs/img-7.jpeg'
                     alt="Vivi"
                     name="Viviana Cellutti MP 21864 ME 7371"
                     title="Medica Cirujana - Docente Universitaria"
@@ -58,7 +54,7 @@ function Aparatologia() {
 
                 {/* Tarjeta 4 */}
                 <AparatologiaCard
-                    imgSrc={App8}
+                    imgSrc='../imgs/img-8.jpeg'
                     alt="Vivi"
                     name="Viviana Cellutti MP 21864 ME 7371"
                     title="Medica Cirujana - Docente Universitaria"
@@ -67,8 +63,7 @@ function Aparatologia() {
             </Grid>
             <Outlet />
         </div>
-    )
-
+    );
 }
 
 export default Aparatologia;
