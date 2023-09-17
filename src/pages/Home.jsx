@@ -1,6 +1,6 @@
 import React from 'react';
-import {Grid} from '@material-ui/core';
-import Footer from '../pages/Footer';
+import { Grid, Card, CardContent, Typography } from '@material-ui/core';
+
 import './Home.css';
 
 
