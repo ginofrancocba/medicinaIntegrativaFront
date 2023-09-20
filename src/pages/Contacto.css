@@ -2,6 +2,7 @@
     display: flex;
     font: 48px/80px "Open Sans", sans-serif;
     width: 100%;
+    height: 15rem;
     align-items: center;
     text-align: center;
     margin: 30px 40px 0px 40px;
@@ -32,7 +33,7 @@
     filter: contrast(110%);
     width: 310px;
     height: 330px;
-    margin: 50px;
+    margin: 50px 0px 50px 50px;
     border-radius: 10px;
     border: 10px solid var(--semi-oscuro) ;
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ; 
@@ -52,5 +53,5 @@ iframe {
     height: 30rem;
     border: 5px solid var(--azul) ;
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
-    margin: 5%;
+    margin: 8%;
 }

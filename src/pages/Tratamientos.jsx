@@ -32,7 +32,7 @@ function Tratamientos(){
         <TratamientoCard
             imgSrc='pegar img '
             alt="pegar img tratamiento-1"
-            name="NOMBRE "
+            name="NOMBRE y DESCRIPCION"
             title="DESCRIPCION"
         />
   
@@ -40,7 +40,7 @@ function Tratamientos(){
         <TratamientoCard
             imgSrc='pegar img'
             alt="img tratamiento-2"
-            name="NOMBRE"
+            name="NOMBRE y DESCRIPCION"
             title="DESCRIPCION"
         />
 
@@ -48,15 +48,15 @@ function Tratamientos(){
         <TratamientoCard
            imgSrc='pegar img'
            alt="img tratamiento-3"
-           name="NOMBRE"
-           title="DESCRIPCION"
+           name="NOMBRE y DESCRIPCION"
+           title="DESCRIPCION DE TRATAMIENTO"
         />
 
         {/* Tarjeta 4 */}
         <TratamientoCard
            imgSrc='pegar img'
            alt="img tratamiento-4"
-           name="NOMBRE"
+           name="NOMBRE y DESCRIPCION"
            title="DESCRIPCION"
         />
 
@@ -64,7 +64,7 @@ function Tratamientos(){
             <TratamientoCard
            imgSrc='pegar img'
            alt="img tratamiento-5"
-           name="NOMBRE"
+           name="NOMBRE y DESCRIPCION"
            title="DESCRIPCION"
         />
 
@@ -72,7 +72,7 @@ function Tratamientos(){
         <TratamientoCard
            imgSrc='pegar img'
            alt="img tratamiento-6"
-           name="NOMBRE"
+           name="NOMBRE y DESCRIPCION"
            title="DESCRIPCION"
         />
     </Grid>
