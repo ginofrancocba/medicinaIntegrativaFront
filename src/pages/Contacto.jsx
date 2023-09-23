@@ -31,9 +31,9 @@ function Contacto() {
                 {/* Tarjeta 1 */}
                 <ContactoCard
                   imgSrc=''
-                  alt="imagen Belen"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
+                  alt="imagen fondo"
+                  name=""
+                  title=""
                 />
 <Grid item xs={12}>
     <div className="map-container">
