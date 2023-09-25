@@ -45,7 +45,7 @@ function Footer() {
                     container
                     className="copyright" item xs={12}>
                     <p>Copyright© 2023 www..com </p>
-                    <p>Todos los derechos reservados. By NAOKI solutions</p> 
+                    <p>Todos los derechos reservados By NAOKI solutions</p> 
                     <img src='./imgs/logoNaoky.png' alt='Logo Naoki' />
                 </Grid>
             </Grid>

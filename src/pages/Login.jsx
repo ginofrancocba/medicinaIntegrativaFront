@@ -21,8 +21,6 @@ const Form = () => {
       setRespuesta(
         <h2 className={"mensaje-error aparecer"}>"Por favor Verifique su información nuevamente"</h2>
       );
- 
-
   }
    
   setTimeout(function(){
@@ -72,6 +70,6 @@ const Form = () => {
       </form>
     </div>
   );
-  }
+}
 
 export default Form;

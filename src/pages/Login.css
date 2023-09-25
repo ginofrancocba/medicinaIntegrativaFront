@@ -3,10 +3,9 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%; 
-    max-width: 700px; 
-    height: auto; 
-    margin: 20px auto; 
+    width: 70%; 
+    height: 700px; 
+    margin: 20px; 
     padding: 20px;
     border: solid 2px;
     background-color: var(--grey-layer);

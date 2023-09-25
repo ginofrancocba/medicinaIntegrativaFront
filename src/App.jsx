@@ -12,6 +12,7 @@ import DermoEstetica from './pages/DermoEstetica';
 import Fisioterapia from './pages/Fisioterapia';
 import Home from './pages/Home';
 import Layout from './pages/Layout';
+import Login from './pages/Login';
 import NoPage from './pages/NoPage';
 import Nutricion from './pages/Nutricion';
 import Pacientes from './pages/Pacientes';
@@ -31,6 +32,7 @@ function App() {
              <Route index element={<Home />}/>
              <Route path='Profesionales' element={<Profesionales />}/>
              <Route path='Contacto' element={<Contacto />}/>
+             <Route path='Login' element={<Login />}/>
              <Route path='Aparatologia' element={<Aparatologia />}/>
              <Route path='Pacientes' element={<Pacientes />}/>
              <Route path='Servicios' element={<Servicios />}/>

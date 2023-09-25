@@ -27,7 +27,7 @@ function Profesionales() {
   
                {/* Tarjeta 1 */}
                 <ProfesionalCard
-                  imgSrc='./imgs/img-1.jpeg'
+                  imgSrc='../imgs/img-Vivi.jpeg'
                   alt="Vivi"
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
@@ -96,15 +96,6 @@ function Profesionales() {
                   name="Viviana Cellutti MP 21864 ME 7371"
                   title="Medica Cirujana - Docente Universitaria"
                 />
-
-                {/* Tarjeta 10 */}
-                <ProfesionalCard
-                  imgSrc='./imgs/img-1.jpeg'
-                  alt="Vivi"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
-                />
-          
             </Grid>
             <Outlet />
         </div>

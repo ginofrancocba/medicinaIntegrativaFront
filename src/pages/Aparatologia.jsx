@@ -27,7 +27,7 @@ function Aparatologia() {
             <Grid
                 container
                 className='image-container-aparatologia'>
-                <h1 className="h1-aparatologia">Contamos con aparatologia de ultima generacion !!!</h1>
+                <h1 className="h1-aparatologia">Contamos con aparatologia de ultima generacion</h1>
                 {/* Tarjeta 1 */}
                 <AparatologiaCard
                     imgSrc='../imgs/img-2.jpeg'
