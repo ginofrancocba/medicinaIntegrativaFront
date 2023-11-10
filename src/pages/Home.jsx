@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Card, CardContent, Typography } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import './Home.css';
 
 
@@ -11,13 +11,12 @@ function Home ()  {
                     <h1 className="h1-home">Bienvenidos al centro de medicina integrativa </h1>
                 </Grid>
                 <Grid
-                    className='image-container'
-                        style={{minHeight: '100vh'}}>
+                    className='image-container'>
                         <Grid className='header' item xs={12}>
                             <img src='../imgs/img-1.jpeg' alt='Vivi' /> 
                         </Grid>
                         <Grid 
-                            container>
+                            className='' container>
                                 <h2 className="h2-home">Somos una empresa dedicada a la Medicina Integrativa</h2>
                                 <p className="lead text-center">El Secreto de una Piel Resplandeciente. 
                                  En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 

@@ -7,8 +7,8 @@
   --celeste: rgba(0, 212, 255, 0.75);
   --grey: rgb(242, 243, 248);
   --grey-button: 	rgb(115, 147, 179);
-  --grey-header: rgba(219, 219, 219, 0.514);
-  --grey-layer: rgb(224, 224, 224);
+  --grey-header: rgb(219, 219, 219);
+  --grey-layer: rgba(224, 224, 224, 0.804);
   --laranja: rgb(84, 31, 23);
   --lila: #8a6df1ff;
   --negro: #000000;
@@ -25,6 +25,5 @@
 #root {
   max-width: 100%;
   margin: 0%;
-  margin-top: 150px;
-  
+
 }

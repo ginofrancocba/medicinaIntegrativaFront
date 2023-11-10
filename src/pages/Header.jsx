@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import {Grid} from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import './Header.css';
 
 function Header() {
