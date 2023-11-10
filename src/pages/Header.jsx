@@ -1,11 +1,11 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import {Grid} from '@material-ui/core';
-import './Layout.css';
+import './Header.css';
 
-function Layout() {
+function Header() {
     return (
-        <div>
+        <div className="fixed-header">
             <Grid 
                 container className="container-layout">
                     <nav className="navbar navbar-expand-lg bg-dark">
@@ -41,4 +41,4 @@ function Layout() {
     )
 }
 
-export default Layout;
+export default Header;

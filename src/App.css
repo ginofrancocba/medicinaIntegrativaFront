@@ -1,5 +1,30 @@
-
+:root {
+  --amarelo: #ffc51aff;
+  --app-grey: rgb(236, 238, 249);
+  --azul: rgb(91, 91, 229);
+  --azul-fran: rgb(102, 138, 255);
+  --azul-hover: rgb(40, 40, 197);
+  --celeste: rgba(0, 212, 255, 0.75);
+  --grey: rgb(242, 243, 248);
+  --grey-button: 	rgb(115, 147, 179);
+  --grey-header: rgba(219, 219, 219, 0.514);
+  --grey-layer: rgb(224, 224, 224);
+  --laranja: rgb(84, 31, 23);
+  --lila: #8a6df1ff;
+  --negro: #000000;
+  --oscuro: #1c1c1f;
+  --pastel: rgb(192, 179, 204);
+  --rosa: rgb(181, 155, 176);
+  --salmon:rgb(248, 157, 147);
+  --salmon-fume:rgb(252, 84, 66);
+  --semi-oscuro: #8c8c8e;
+  --verde: rgb(37, 177, 121);
+  --verde-fran: rgb(177, 214, 188);
+  }
+  
 #root {
   max-width: 100%;
+  margin: 0%;
+  margin-top: 150px;
   
 }

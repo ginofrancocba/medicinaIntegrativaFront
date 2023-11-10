@@ -1,17 +1,16 @@
 import React from 'react';
 import { Grid, Card, CardContent, Typography } from '@material-ui/core';
-
 import './Home.css';
 
 
 function Home ()  {
     return (
-         <div>
-             <Grid 
-                 container>
+            <div>
+                <Grid 
+                 className='cont1-home' container>
                     <h1 className="h1-home">Bienvenidos al centro de medicina integrativa </h1>
-                    </Grid>
-                    <Grid
+                </Grid>
+                <Grid
                     className='image-container'
                         style={{minHeight: '100vh'}}>
                         <Grid className='header' item xs={12}>
@@ -28,8 +27,8 @@ function Home ()  {
                                  específicos, estamos comprometidos a ayudarte a lograr una piel que refleje vitalidad y 
                                  bienestar.</p>
                         </Grid>
-             </Grid> 
-         </div>
+                </Grid> 
+            </div>
     );
 }
 

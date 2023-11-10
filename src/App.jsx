@@ -11,7 +11,7 @@ import Cosmiatria from './pages/Cosmiatria';
 import DermoEstetica from './pages/DermoEstetica';
 import Fisioterapia from './pages/Fisioterapia';
 import Home from './pages/Home';
-import Layout from './pages/Layout';
+import Layout from './pages/Header';
 import Login from './pages/Login';
 import NoPage from './pages/NoPage';
 import Nutricion from './pages/Nutricion';
@@ -27,7 +27,7 @@ function App() {
 
   return (
       <BrowserRouter>
-        <Routes>
+          <Routes>
              <Route path='/' element={<Layout />}>
              <Route index element={<Home />}/>
              <Route path='Profesionales' element={<Profesionales />}/>
@@ -44,7 +44,7 @@ function App() {
              <Route path='Nutricion' element={<Nutricion />}/>
              <Route path='*' element={<NoPage/>}/>
              </Route>      
-        </Routes>
+          </Routes>
         <Footer />
         <Outlet />
       </BrowserRouter>

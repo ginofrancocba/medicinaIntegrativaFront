@@ -1,35 +1,17 @@
-:root {
---negro: #000000;
---oscuro: #1c1c1f;
---semi-oscuro: #8c8c8e;
---app-grey: #F2F2F2;
---grey: rgb(242, 243, 248);
---azul: rgb(91, 91, 229);
---azul-hover: rgb(40, 40, 197);
---azul-fran: rgb(102, 138, 255);
---verde: rgb(37, 177, 121);
---verde-fran: rgb(177, 214, 188);
---rosa: rgb(181, 155, 176);
---lila: #8a6df1ff;
---laranja: rgb(84, 31, 23);
---amarelo: #ffc51aff; 
---celeste: rgba(0, 212, 255, 0.75);
---pastel: rgb(192, 179, 204);
---salmon:rgb(248, 157, 147);
---salmon-fume:rgb(252, 84, 66);
---grey-layer: rgb(224, 224, 224);
---grey-button: 	rgb(115, 147, 179);
-}
 
 * {
-    margin: 0%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     font-weight:bold;
     box-sizing: border-box;
 }
 
 body {
+    width: 100%;
     background-color: var(--app-grey);
     border-radius: 20px;
+
 }
 
 .image-container {
@@ -41,15 +23,6 @@ body {
     margin: 20px 0px 0px 80px;   
 }
 
-.header {
-    display:flex ;   
-    /*background-color: var(--grey);
-    border-radius: 20px;
-    box-shadow: var(--amarelo) 0px 0px 95px, var(--azul) 0px 4px 31px ;
-    border: 0px solid var(--azul-fran) ;
-    font-size: 15px;*/
-}
-
 .image-container img {
     display: flex;
     justify-content:end;
@@ -59,24 +32,23 @@ body {
     width: 300px;
     margin: 5px;
     border-radius: 5;
-    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 10px ;
-    border: 1px solid var(--azul-fran) ;
-  
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 15px ;
+    border: px solid var(--azul-fran) ;
 }
 
 .h1-home {
     display: flex;
-    font: 48px/80px "Open Sans", sans-serif;
-    width: 100%;
-    height: 15rem;
+    font: 2rem/2rem "Open Sans", sans-serif;
+    width: 90vw;
+    height: 7rem;
     align-items: center;
     text-align: center;
-    margin: 30px 40px 0px 40px;
-    padding: 30px 30px 40px 50px;
+    margin: 20px 10px 0px 30px;
+    padding: 10px 10px 10px 50px;
     color: var(--semi-oscuro);
     border-bottom: 2px solid var(--semi-oscuro); 
-    background-color: var(--salmon); 
-
+    background-color: var(--salmon);
+    border-radius: 5px; 
 }
 
 .h2-home {
