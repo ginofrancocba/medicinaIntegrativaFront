@@ -1,7 +1,6 @@
 
 * {
     width: 100%;
- 
     font-weight:bold;
  
 }
@@ -34,17 +33,17 @@
 
 .h1-home {
     font: 2rem/2rem "Open Sans", sans-serif;
-    width: 90vw;
-    height: 6rem;
+    width: 100vw;
+    height: 4rem;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 20px 10px 0px 30px;
-    padding: 30px 20px 0px 20px;
+    margin: 20px 0px 0px 0px;
+    padding: 30px 20px 20px 20px;
     color: var(--semi-oscuro);
     border-bottom: 2px solid var(--semi-oscuro); 
     background-color: var(--salmon);
-    border-radius: 5px; 
+
 }
 
 .h2-home {
