@@ -20,6 +20,10 @@
     border: px solid var(--azul-fran) ;
 }
 
+.front-img {
+    display: grid;
+}
+
 
 .cont1-home {
     display: flex;

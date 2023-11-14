@@ -12,7 +12,7 @@ function Home ()  {
                 </Grid>
                 <Grid
                     className='image-container'>
-                        <Grid className='header' item xs={12}>
+                        <Grid className='front-img' item xs={12}>
                             <img src='../imgs/Frente2.jpg' alt='Vivi' /> 
                         </Grid>
                         <Grid>
