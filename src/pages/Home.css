@@ -5,7 +5,6 @@
  
 }
 
-
 .image-container {
     display: flex;
 }
@@ -13,9 +12,10 @@
 .image-container img {
     display: flex;
     filter: contrast(110%);
-    width: 300px;
-    margin: 5px;
+    width: 50vw;
+    margin: 25% 15% 15% 15%;
     border-radius: 5px;
+
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 15px ;
     border: px solid var(--azul-fran) ;
 }

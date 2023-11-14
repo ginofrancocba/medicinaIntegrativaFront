@@ -13,11 +13,9 @@ function Home ()  {
                 <Grid
                     className='image-container'>
                         <Grid className='header' item xs={12}>
-                            <img src='../imgs/img-1.jpeg' alt='Vivi' /> 
+                            <img src='../imgs/Frente2.jpg' alt='Vivi' /> 
                         </Grid>
-                        <Grid 
-                            className='' container>
-                                <h2 className="h2-home">Somos una empresa dedicada a la Medicina Integrativa</h2>
+                        <Grid>
                                 <p className="lead text-center">El Secreto de una Piel Resplandeciente. 
                                  En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 
                                  Te brindamos una experiencia única donde la ciencia dermatológica y las terapias naturales 
