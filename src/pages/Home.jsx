@@ -16,13 +16,14 @@ function Home ()  {
                             <img src='../imgs/Frente2.jpg' alt='Vivi' /> 
                         </Grid>
                         <Grid>
-                                <p className="lead text-center">El Secreto de una Piel Resplandeciente. 
-                                 En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 
-                                 Te brindamos una experiencia única donde la ciencia dermatológica y las terapias naturales 
-                                 se fusionan para rejuvenecer tu piel.
-                                 Desde tratamientos antienvejecimiento hasta soluciones para problemas dermatológicos 
-                                 específicos, estamos comprometidos a ayudarte a lograr una piel que refleje vitalidad y 
-                                 bienestar.</p>
+                             <p className="lead-text-center"> El Secreto de una Piel Resplandeciente. 
+                              En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 
+                              Te brindamos una experiencia única donde la ciencia dermatológica y las terapias naturales 
+                              se fusionan para rejuvenecer tu piel.
+                              Desde tratamientos antienvejecimiento hasta soluciones para problemas dermatológicos 
+                              específicos, estamos comprometidos a ayudarte a lograr una piel que refleje vitalidad y 
+                              bienestar.
+                              </p>
                         </Grid>
                 </Grid> 
             </div>
