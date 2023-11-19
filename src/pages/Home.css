@@ -12,8 +12,8 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 20px 0px 0px 0px;
-    padding: 30px 20px 20px 20px;
+    margin: 4% 0% 0% 0%;
+    padding: 4% 2% 2% 2%;
     color: var(--semi-oscuro);
     border-bottom: 2px solid var(--semi-oscuro); 
     background-color: var(--salmon);
@@ -55,8 +55,8 @@
     align-items: center;
     text-align: center;
     line-height: 1.5;
-    margin: 5% 0% 10% 0%;
-    padding: 0% 0% 0% 0%;
+    margin: 5% 0% 5% 2.5%;
+    padding: 1% 1% 2% 2%;
     background-color: var(--verde-fran); 
     color: var(--semi-oscuro); 
 }
