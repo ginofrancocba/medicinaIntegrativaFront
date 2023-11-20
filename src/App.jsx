@@ -3,23 +3,23 @@ import { BrowserRouter,
          Route,  
          Outlet
        } from 'react-router-dom';
-import Aparatologia from './pages/Aparatologia';
 import React from 'react';
-import Bioquimica from './pages/Bioquimica';
-import Contacto from './pages/Contacto';
-import Cosmiatria from './pages/Cosmiatria';
-import DermoEstetica from './pages/DermoEstetica';
-import Fisioterapia from './pages/Fisioterapia';
-import Home from './pages/Home';
-import Layout from './pages/Header';
-import Login from './pages/Login';
-import NoPage from './pages/NoPage';
-import Nutricion from './pages/Nutricion';
-import Pacientes from './pages/Pacientes';
-import Profesionales from './pages/Profesionales';
-import Servicios from './pages/Servicios';
-import Tratamientos from './pages/Tratamientos';
-import Footer from './pages/Footer';
+import Aparatologia from './views/Aparatologia';
+import Bioquimica from './views/Bioquimica';
+import Contacto from './views/Contacto';
+import Cosmiatria from './views/Cosmiatria';
+import DermoEstetica from './views/DermoEstetica';
+import Fisioterapia from './views/Fisioterapia';
+import Footer from './views/Footer';
+import Home from './views/Home';
+import Layout from './views/Header';
+import Login from './views/Login';
+import NoPage from './views/NoPage';
+import Nutricion from './views/Nutricion';
+import Pacientes from './views/Pacientes';
+import Profesionales from './views/Profesionales';
+import Servicios from './views/Servicios';
+import Tratamientos from './views/Tratamientos';
 import './App.css';
 
 
