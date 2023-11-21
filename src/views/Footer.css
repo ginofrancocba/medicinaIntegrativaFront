@@ -31,9 +31,10 @@
 }
 
 .rrss {
+   font: 2rem/2rem "Open Sans", sans-serif;
    display: flex;
    width: 500px;
-   color: var(--oscuro);  
+   color: var(--pastel);  
    margin: 0rem auto 0;
 }
 
@@ -42,7 +43,7 @@ ul {
 }
 
 .rrss ul li h3 {
-   border-bottom: 2px solid var(--oscuro);
+   border-bottom: 2px solid var(--pastel);
    margin: auto 0;
 }
 
