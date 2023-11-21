@@ -44,7 +44,7 @@ function Footer() {
                     className="copyright" item xs={12}>
                     <p>Copyright© 2023 www..com </p>
                     <p>Todos los derechos reservados By NAOKI solutions</p> 
-                    <img src='./imgs/logoNaoky.png' alt='Logo Naoki' />
+                    <img className="logo-footer" src='./imgs/logoNaoky.png' alt='Logo Naoki' />
                 </Grid>
             </Grid>
             <Outlet />
