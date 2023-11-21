@@ -12,7 +12,7 @@ function Footer() {
             className="page-footer"> 
                  <ul>
                     <li>
-                        <Link to="/contacto"><button type="submit" className="btn footer">Contactanos</button></Link>
+                        <Link to="/contacto"><button type="submit" className="btn-footer">Contactanos</button></Link>
                     </li>                   
                  </ul>
                 <Grid

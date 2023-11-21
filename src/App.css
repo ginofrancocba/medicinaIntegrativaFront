@@ -1,12 +1,12 @@
 :root {
   --amarelo: #ffc51aff;
-  --app-grey: rgb(236, 238, 249);
+  --app-grey: rgb(247, 247, 247);
   --azul: rgb(91, 91, 229);
   --azul-fran: rgb(102, 138, 255);
   --azul-hover: rgb(40, 40, 197);
   --celeste: rgba(0, 212, 255, 0.75);
   --grey: rgb(242, 243, 248);
-  --grey-button: 	rgb(142, 160, 179);
+  --grey-button: 	rgb(198, 193, 193);
   --grey-header: rgb(219, 219, 219);
   --grey-layer: rgba(224, 224, 224, 0.804);
   --laranja: rgb(84, 31, 23);
@@ -16,6 +16,7 @@
   --pastel: rgb(192, 179, 204);
   --rosa: rgb(181, 155, 176);
   --salmon:rgb(248, 157, 147);
+  --salmon-footer: rgb(241, 192, 186);
   --salmon-fume:rgb(252, 84, 66);
   --semi-oscuro: #8c8c8e;
   --verde: rgb(37, 177, 121);
