@@ -8,7 +8,7 @@
 .page-footer  {
     display: grid;
     justify-content: center;
-    height: 450px;  
+    height: 20%;  
     background-color: var(--salmon-footer);
     box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px ;
     border: 0px solid var(--azul-fran) ; 
@@ -22,7 +22,7 @@
    background-color:var(--grey-button);
    width: 8em;
    height: 2em;
-   margin: auto;
+   margin: 1rem 0rem 1rem 22rem;
    padding: 1%;
    border-radius: 5px;
 }
@@ -97,13 +97,18 @@ a {
    height: 40%;
    color: var(--oscuro);
    padding: 0% 0% 0% 0%;
-   margin: 0% 0% 0% 0%;
+   margin: 1% 1% 1% 1%;
+}
+
+.p-footer {
+   padding: 0% 0% 0% 0%;
+   margin: 9% 0% 1% 5%;
 }
 
 .logo-footer {
    width: 4rem;
    height: 4rem;
-   margin: -8% 10% 10% 10%;
+   margin: -6% 15% 2% 0%;
    border-radius: 5px;
    box-shadow: var(--semi-oscuro) 0px 2px 95px, var(--azul-hover) 0px 5px 10px;
    border: 1px solid var(--azul-fran);

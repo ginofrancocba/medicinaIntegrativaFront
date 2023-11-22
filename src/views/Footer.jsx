@@ -35,15 +35,15 @@ function Footer() {
                     container
                     className="datos-ubicacion" >
                     <ul>
+                        <li>Nuestros Horarios Lunes a Viernes: 8 AM a 20 PM</li>
                         <li>Roma 264 Barrio Gral Paz X5000 Córdoba</li>
-                        <li>Telefono de contacto: 3513335473</li>
+                        <li>Telefono de contacto: Whatsapp (351) 3 335473</li>
                     </ul>
                 </Grid>
                 <Grid
                     container
                     className="copyright" item xs={12}>
-                    <p>Copyright© 2023 www..com </p>
-                    <p>Todos los derechos reservados By NAOKI solutions</p> 
+                    <p className="p-footer" >Copyright© 2023 www..com Todos los derechos reservados By NAOKI solutions </p>
                     <img className="logo-footer" src='./imgs/logoNaoky.png' alt='Logo Naoki' />
                 </Grid>
             </Grid>
