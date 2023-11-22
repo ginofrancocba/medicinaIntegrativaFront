@@ -101,6 +101,7 @@ a {
 }
 
 .p-footer {
+   font: 1rem/1rem "Open Sans", sans-serif;
    padding: 0% 0% 0% 0%;
    margin: 9% 0% 1% 5%;
 }

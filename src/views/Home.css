@@ -19,7 +19,7 @@
     background-color: var(--salmon);
 }
 
-    .image-container img {
+.image-container img {
     display: flex;
     filter: contrast(110%);
     width: 60vw;
@@ -37,8 +37,7 @@
     height: 7rem;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .h2-home {
@@ -57,6 +56,5 @@
     line-height: 1.5;
     margin: 5% 0% 5% 2.5%;
     padding: 1% 1% 2% 2%;
-    background-color: var(--verde-fran); 
     color: var(--semi-oscuro); 
 }
