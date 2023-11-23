@@ -22,10 +22,11 @@
 .image-container img {
     display: flex;
     filter: contrast(110%);
-    width: 60vw;
+    width: 70vw;
+    height: auto;
     justify-content: center;
     align-items: center;
-    margin: 10% 5% 15% 19%;
+    margin: 10% 5% 1% 14%;
     border-radius: 5px;
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--semi-oscuro) 0px 4px 15px ;
     border: px solid var(--semi-oscuro) ;
