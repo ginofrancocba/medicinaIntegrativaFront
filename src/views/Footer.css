@@ -10,8 +10,9 @@
     justify-content: center;
     height: 20%;  
     background-color: var(--salmon-footer);
-    box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px ;
-    border: 0px solid var(--azul-fran) ; 
+    box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 4px 31px;
+    border: 0px solid var(--azul-fran); 
+    font: 1rem/1rem "Open Sans", sans-serif;
 }
 
 .btn-footer {
@@ -32,7 +33,6 @@
 }
 
 .rrss {
-   font: 2rem/2rem "Open Sans", sans-serif;
    display: flex;
    width: 500px;
    color: var(--pastel);  
@@ -63,8 +63,8 @@ a {
    width: 2rem; 
    height: auto;
    text-align: center;
-   padding: 30%;  
-   margin: 20%;
+   padding: 30% 30% 15% 30%;  
+   margin: 20% 0% 0% 0%;
 }
 
 .icons img:hover {
@@ -81,12 +81,12 @@ a {
 
 .datos-ubicacion {
    display:flex;
-   font-size: 1.5rem;
-   width: 20%;
-   height: 50px;
+   width: 10%;
    align-items: center;
    justify-content:flex-start;
    color: var(--oscuro);
+   padding: 0% 0% 25% 0%;
+   margin: 3% 1% 1% 1%;
 }
 
 .copyright {
