@@ -1,7 +1,6 @@
 
 * {
    width: 100%;
-   font-weight:bold;
 
 }
 
@@ -23,7 +22,7 @@
    background-color:var(--grey-button);
    width: 8em;
    height: 2em;
-   margin: 1rem 0rem 1rem 22rem;
+   margin: 3% 0% 2% 40%;
    padding: 1%;
    border-radius: 5px;
 }
@@ -36,7 +35,7 @@
    display: flex;
    width: 500px;
    color: var(--pastel);  
-   margin: auto 0;
+   margin: 3%;
 }
 
 ul {
@@ -79,14 +78,57 @@ a {
    padding: 0px 0px 10px 0px;  
 }
 
-.datos-ubicacion {
+.datos-ubicacion-titulo {
    display:flex;
    width: 10%;
    align-items: center;
    justify-content:flex-start;
    color: var(--oscuro);
-   padding: 0% 0% 25% 0%;
-   margin: 3% 1% 1% 1%;
+   padding: 0% 0% 2% 0%;
+   margin: 7% 1% 1% 1%;
+}
+
+.li-horario {
+   display: flex;
+   width: 60%;
+   padding: 0% 0% 1% 0%;
+   margin: 0.5% 5% 0% 1%;
+   border-bottom: 1.9px solid var(--semi-oscuro);
+}
+
+.li-direccion {
+   display: flex;
+   width: 60%;
+   padding: 0% 0% 1% 0%;
+   margin: 0.5% 5% 0% 1%;
+   border-bottom: 1.9px solid var(--semi-oscuro);
+}
+
+.li-telefono {
+   display: flex;
+   width: 70%;
+   padding: 0% 0% 1% 0%;
+   margin: 0.5% 5% 0% 1%;
+   border-bottom: 1.9px solid var(--semi-oscuro);
+}
+
+.ul-ubicacion {
+   font: 0.8rem/1.2rem "Open Sans", sans-serif;
+   display: flex;
+   width: 90%;
+   padding: 0% 0% 0% 0.5%;
+   margin: 0% 0% 0% 6%;
+}
+
+.datos-ubicacion {
+   display:flex;
+   width: 6%;
+   align-items: center;
+   justify-content:flex-start;
+   color: var(--oscuro);
+   padding: 0% 0% 2% 0%;
+   margin: 0% 1% 1% 1%;
+  
 }
 
 .copyright {
@@ -94,21 +136,21 @@ a {
    align-items: center;
    justify-content: flex-end;
    width: 10%;
-   height: 40%;
+   height: 10%;
    color: var(--oscuro);
    padding: 0% 0% 0% 0%;
    margin: 1% 1% 1% 1%;
 }
 
 .p-footer {
-   font: 1rem/1rem "Open Sans", sans-serif;
+   font: 0.8rem/1rem "Open Sans", sans-serif;
    padding: 0% 0% 0% 0%;
-   margin: 9% 0% 1% 5%;
+   margin: 5% 0% 0% 25%;
 }
 
 .logo-footer {
-   width: 4rem;
-   height: 4rem;
+   width: 3rem;
+   height: 3rem;
    margin: -6% 15% 2% 0%;
    border-radius: 5px;
    box-shadow: var(--semi-oscuro) 0px 2px 95px, var(--azul-hover) 0px 5px 10px;

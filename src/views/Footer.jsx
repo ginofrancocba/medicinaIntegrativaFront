@@ -33,11 +33,20 @@ function Footer() {
                 </Grid>
                 <Grid 
                     container
-                    className="datos-ubicacion" >
+                    className="datos-ubicacion-titulo" >
                     <ul>
-                        <li>Nuestros Horarios Lunes a Viernes: 8 AM a 20 PM</li>
-                        <li>Roma 264 Barrio Gral Paz X5000 Córdoba</li>
-                        <li>Telefono de contacto: Whatsapp (351) 3 335473</li>
+                        <li className="li-horario">Nuestros horarios</li>
+                        <li className="li-direccion">Nos encontramos</li>
+                        <li className="li-telefono">Telefono de contacto</li>
+                    </ul>
+                </Grid>
+                <Grid 
+                    container
+                    className="datos-ubicacion" >
+                    <ul className="ul-ubicacion">
+                        <li className="li-1">Lunes a Viernes: 8 AM a 20 PM </li>
+                        <li className="li-2">Roma 264 Barrio Gral Paz X5000 Córdoba</li>
+                        <li className="li-3">Whatsapp (351) 3335473</li>
                     </ul>
                 </Grid>
                 <Grid
@@ -48,7 +57,7 @@ function Footer() {
                 </Grid>
             </Grid>
             <Outlet />
-         </div> 
+        </div> 
     )
 };
 
