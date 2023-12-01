@@ -1,11 +1,5 @@
-
-* {
-    width: 100%;
-    font-weight:bold;
- 
-}
-
 .h1-home {
+    display: flex;
     font: 2rem/2rem "Open Sans", sans-serif;
     width: 100vw;
     height: 4rem;
@@ -13,7 +7,7 @@
     text-align: center;
     justify-content: center;
     margin: 4% 0% 0% 0%;
-    padding: 4% 2% 2% 2%;
+    padding: 4% 3% 4% 2%;
     color: var(--semi-oscuro);
     border-bottom: 2px solid var(--semi-oscuro); 
     background-color: var(--salmon);
@@ -29,7 +23,7 @@
     margin: 10% 5% 1% 14%;
     border-radius: 5px;
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--semi-oscuro) 0px 4px 15px ;
-    border: px solid var(--semi-oscuro) ;
+    border: 1px solid var(--semi-oscuro) ;
 }
 
 .cont1-home {
