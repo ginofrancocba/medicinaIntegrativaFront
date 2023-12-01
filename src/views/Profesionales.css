@@ -2,7 +2,7 @@
     display: flex;
     font: 2rem/2rem "Open Sans", sans-serif;
     width: 100vw;
-    height: 4rem;
+    height: 17vh;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -20,10 +20,12 @@
     opacity: 1;
     filter: contrast(110%);
     width: 23vw;
-    height: 70vh;
-    margin: 4%;
+    height: 50vh;
+    padding: 0% 0% 4% 0%;
+    margin: 4% 4% 3% 5%;
+    border-radius: 4px;
     color: var(--semi-oscuro);
-    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 4px 15px ;
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 1px 5px ;
     border: 1px solid var(--semi-oscuro) ;
 }
 
@@ -32,11 +34,16 @@
    filter: contrast(120%);
    object-fit: cover;
    transition: .4s ease;
-   border: 2px solid var(--salmon) ;
+   border: 2px solid var(--semi-oscuro) ;
 }
 
-img {
-    width: 20vw;
-    height: auto;
-    margin: 1%;
+.prof-card-img {
+    width: 21vw;
+    height: 39vh;
+    padding: 0.1% 0.1% 0.1% 0.1%;
+    margin: 3% 2% 0% 2%;
+    border-radius: 4px;
+    color: var(--semi-oscuro);
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 1px 5px ;
+    border: 1px solid var(--semi-oscuro) ;
 }
