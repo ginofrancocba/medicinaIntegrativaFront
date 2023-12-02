@@ -47,3 +47,11 @@
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--azul) 0px 1px 5px ;
     border: 1px solid var(--semi-oscuro) ;
 }
+
+.MuiCardContent-root {
+    font-size: 20px;
+    width: 20vw;
+    height: 10vh;
+    padding: 0.1% 0.1% 0.1% 0.1%;
+    margin: 0% 0% 0% 0%;
+}
