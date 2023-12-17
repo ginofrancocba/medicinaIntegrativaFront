@@ -25,6 +25,8 @@
    margin: 3% 0% 2% 44%;
    padding: 1%;
    border-radius: 5px;
+   box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 1px 7px;
+   
 }
 
 .btn:hover {
@@ -33,17 +35,20 @@
 
 .rrss {
    display: flex;
-   width: 500px;
-   color: var(--pastel);  
-   margin: 3%;
+   width: 50%;
+   color: var(--oscuro);
+   padding: 0% 0% 2% 10%;
+   margin: 3% ;
 }
 
 ul {
+
    margin: auto 0;
 }
 
 .rrss ul li h3 {
    border-bottom: 2px solid var(--pastel);
+   padding: 0% 0% 2% 0%;
    margin: auto 0;
 }
 
