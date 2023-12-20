@@ -109,6 +109,21 @@ a {
    border-bottom: 1.9px solid var(--semi-oscuro);
 }
 
+.li-1 {
+   padding: 0% 0% 0% 0%;
+   margin: 0% 0% 0% -1%;
+}
+
+ .li-2 {
+   padding: 0% 0% 0% 0%;
+   margin: 0% 0% 0% 0%;
+}
+
+.li-3 {
+   padding: 0% 0% 0% 0%;
+   margin: 0% 0% 0% 0%;
+} 
+
 .li-telefono {
    display: flex;
    width: 70%;
@@ -121,7 +136,7 @@ a {
    font: 0.8rem/1.2rem "Open Sans", sans-serif;
    display: flex;
    width: 90%;
-   padding: 0% 0% 0% 0.5%;
+   padding: 0% 0% 0% 0%;
    margin: 0% 0% 0% 6%;
 }
 
