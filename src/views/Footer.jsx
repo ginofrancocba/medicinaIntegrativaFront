@@ -52,7 +52,8 @@ function Footer() {
                 <Grid
                     container
                     className="copyright" item xs={12}>
-                    <p className="p-footer" >Copyright© 2023 www.medicinaintegrativacba.com  Todos los derechos reservados By NAOKI solutions </p>
+                    <p className="p-footer">Copyright© 2023 www.medicinaintegrativacba.com</p>
+                    <p className="p-footer">Todos los derechos reservados By NAOKI solutions</p>
                     <img className="logo-footer" src='./imgs/logoNaoky.png' alt='Logo Naoki' />
                 </Grid>
             </Grid>
