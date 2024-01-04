@@ -48,54 +48,6 @@ function Profesionales() {
                   name="Setti Romina MP 21864 ME 7371"
                   title="Med Cirujana Plastica"
                 />
-
-                {/* Tarjeta 4 */}
-                <ProfesionalCard
-                  imgSrc='./imgs/img-1.jpeg'
-                  alt="Vivi"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
-                />
-
-                {/* Tarjeta 5 */}
-                <ProfesionalCard
-                  imgSrc='./imgs/img-1.jpeg'
-                  alt="Vivi"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
-                />
-
-                {/* Tarjeta 6 */}
-                <ProfesionalCard
-                  imgSrc='./imgs/img-1.jpeg'
-                  alt="Vivi"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
-                />
-
-                {/* Tarjeta 7 */}
-                <ProfesionalCard
-                  imgSrc='./imgs/img-1.jpeg'
-                  alt="Vivi"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
-                />
-
-                {/* Tarjeta 8 */}
-                <ProfesionalCard
-                  imgSrc='./imgs/img-1.jpeg'
-                  alt="Vivi"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
-                />
-
-                {/* Tarjeta 9 */}
-                <ProfesionalCard
-                  imgSrc='./imgs/img-1.jpeg'
-                  alt="Vivi"
-                  name="Viviana Cellutti MP 21864 ME 7371"
-                  title="Medica Cirujana - Docente Universitaria"
-                />
             </Grid>
             <Outlet />
         </div>
