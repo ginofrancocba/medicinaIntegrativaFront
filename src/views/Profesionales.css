@@ -33,12 +33,14 @@
    opacity: 1;
    filter: contrast(120%);
    object-fit: cover;
-   transition: .4s ease;
-   border: 2px solid var(--semi-oscuro) ;
+   transition: .3s ease;
+   color: var(--semi-oscuro);
+   box-shadow: var(--semi-oscuro) 0px 0px 55px, var(--azul) 0px 1px 5px ;
+   border: 1.6px solid var(--semi-oscuro) ;
 }
 
 .prof-card-img {
-    width: 21vw;
+    width: 20vw;
     height: 39vh;
     padding: 0.1% 0.1% 0.1% 0.1%;
     margin: 3% 2% 0% 2%;
@@ -49,9 +51,13 @@
 }
 
 .MuiCardContent-root {
-    font-size: 20px;
+    font-size: 1rem;
     width: 20vw;
     height: 10vh;
     padding: 0.1% 0.1% 0.1% 0.1%;
     margin: 0% 0% 0% 0%;
+}
+
+.MuiTypography-h6 {
+    font-size: 1rem;
 }

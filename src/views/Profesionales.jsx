@@ -10,10 +10,10 @@ function ProfesionalCard({imgSrc, alt, name, title }) {
              <Card className='profesional-card'>
                 <img className="prof-card-img" src={imgSrc} alt={alt} />
                 <CardContent>
-                    <Typography variant="h6">{name}</Typography>
+                    <Typography variant="h7">{name}</Typography>
                 </CardContent>
                 <CardContent>
-                    <Typography variant="h6">{title}</Typography>
+                    <Typography variant="h7">{title}</Typography>
                 </CardContent>
                 </Card>
     );
